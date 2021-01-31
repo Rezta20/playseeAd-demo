@@ -1,0 +1,77 @@
+.title {
+  color: #314146;
+  font-size: 18px;
+  margin: 0px 60px 10px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.contentOutsideWrapper {
+  display: flex;
+  margin-left: 60px;
+  box-sizing: border-box;
+}
+
+.element {
+  display: flex;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.brandComponent {
+  background-color: rgba(50, 160, 166, 0.1);
+  box-sizing: border-box;
+}
+
+.brandComponent:hover {
+  border: 1px solid #32a0a6;
+}
+
+.locationComponent {
+  background-color: rgba(255, 120, 10, 0.15);
+  box-sizing: border-box;
+}
+
+.locationComponent:hover {
+  border: 1px solid #ff765c;
+}
+
+.icon {
+  width: 85px;
+  padding-bottom: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  margin: 0px 5px;
+  padding-top: 15px;
+}
+
+.brandContentCorrect {
+  margin-left: 15px;
+}
+
+.contentTitle {
+  color: #314146;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 0px 4px;
+}
+
+.contentDescription {
+  color: #2a4a54;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.arrowAlign {
+  align-self: center;
+  color: #2a4a54;
+  font-size: 10px;
+}

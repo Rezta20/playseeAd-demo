@@ -1,0 +1,57 @@
+.cardWrapperBottom {
+  margin: 10px;
+}
+
+.cardWrapperRelative {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 8px;
+  border-radius: 15px;
+  padding: 7px 10px;
+  width: 256px;
+  min-height: 180px;
+  text-align: center;
+  margin: 12px 5px;
+}
+
+.title {
+  color: #314146;
+  font-size: 16px;
+  margin: 10px auto;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.description {
+  min-height: 48px;
+  box-sizing: border-box;
+  line-height: 18px;
+  font-size: 14px;
+  color: #2a4a54;
+  font-weight: 400;
+}
+
+.btnWrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.function {
+  color: #32a0a6;
+  font-size: 14px;
+  border: solid 1px #32a0a6;
+  border-radius: 7px;
+  line-height: 20px;
+  padding: 7px 9px 9px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.later {
+  border: none;
+  color: #93a7ae;
+  line-height: 18px;
+  font-size: 16px;
+  margin: 16px 0px 0px;
+  font-weight: 400;
+  background-color: #fff;
+}

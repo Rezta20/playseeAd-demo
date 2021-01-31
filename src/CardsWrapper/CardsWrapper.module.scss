@@ -1,0 +1,21 @@
+.cardsWrapper {
+  padding-left: 50px;
+  display: flex;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cardsWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.emailInput {
+  width: 240px;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid 1px #2a4a54;
+}

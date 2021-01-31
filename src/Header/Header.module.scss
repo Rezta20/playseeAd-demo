@@ -1,0 +1,63 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.headerWrapper {
+  display: flex;
+  flex: 0 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #f2f4f5;
+  max-height: 64px;
+  color: #314146;
+  padding: 0px 20px;
+  z-index: 2;
+  margin: 0 20px;
+}
+
+.leftWrapper {
+  display: flex;
+  align-items: center;
+  height: 77px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  padding-right: 7px;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.titleWrapper {
+  display: flex;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.titleContent {
+  padding: 22px 15px;
+  cursor: pointer;
+}
+
+.titleContentBorder {
+  border-bottom: solid 2px #33a0a6;
+}
+
+:global(.fa-user-circle) {
+  font-size: 26px;
+  align-items: center;
+  color: #c3d5dc;
+}

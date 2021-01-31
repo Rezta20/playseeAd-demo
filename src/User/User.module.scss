@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  margin: 10px 0px 10px 55px;
+}
+
+.profileLogoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: solid 1px #e5f3f4;
+}
+
+:global(.profile) {
+  font-size: 44px;
+  color: #c3d5dc;
+}
+
+.profileContentWrapper {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.id {
+  padding-bottom: 7px;
+}
+
+.btnWrapper > button {
+  border: solid 1px #c3d5dc;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btnWrapperBorder {
+  border: solid 1px #000;
+}
